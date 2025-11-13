@@ -1,4 +1,4 @@
-name: CI-Polaris-Basic
+name: Polaris SAST/SCA CICD Scan
 on:
   push:
     branches: [main, master, develop, stage, release]
