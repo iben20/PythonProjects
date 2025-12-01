@@ -35,7 +35,7 @@ jobs:
         
         ### SCANNING OPTIONAL: Pull Request comments
         polaris_prComment_enabled: true
-        github_token: ${{ secrets.GITHUB_TOKEN }} # Required when Pull Request comments field enabled
+        github_token: ${{ secrets.POLARIS_GITHUB_TOKEN }} # Required when Pull Request comments field enabled
         
         ### ENABLE OPTIONAL SCAN REPORTS
         polaris_reports_sarif_create: true
