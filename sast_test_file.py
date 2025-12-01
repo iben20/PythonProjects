@@ -4,7 +4,7 @@ import os
 import pickle
 
 # Hardcoded credentials (Issue: Sensitive Information Exposure)
-USERNAME = "admin"
+USERNAME = "admin123"
 PASSWORD = "password123"
 
 # SQL Injection vulnerability
