@@ -1,14 +1,14 @@
 name: Polaris SAST/SCA CICD Scan
-#on:
-#  push:
-#    branches: [main, master, develop, stage, release]
-#  pull_request:
-#    branches: [main, master, develop, stage, release]
-#  workflow_dispatch:
 on:
-  schedule:
-    # Runs every day at 09:00 UTC
-    - cron: '10,20,30,40,50 * * * *'
+  push:
+    branches: [main, master, develop, stage, release]
+  pull_request:
+    branches: [main, master, develop, stage, release]
+  workflow_dispatch:
+#on:
+#  schedule:
+    # Runs every day at 10, 20, 30, 40, 50 minute of every hour
+#    - cron: '10,20,30,40,50 * * * *'
    
 jobs:
   build:
