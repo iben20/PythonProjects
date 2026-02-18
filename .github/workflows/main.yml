@@ -36,7 +36,7 @@ jobs:
         ### SCANNING OPTIONAL
         polaris_application_name: 'susantoblackduck'
         polaris_project_name: 'PythonProjects'
-        polaris_branch_name: 'main'
+        #polaris_branch_name: 'main'
         
         ### SCANNING OPTIONAL: Pull Request comments
         polaris_prComment_enabled: true
