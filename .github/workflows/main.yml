@@ -31,7 +31,7 @@ jobs:
         polaris_assessment_types: "SAST"
         #polaris_assessment_types: "SCA,SAST"
         #polaris_test_sca_type: "SCA-SIGNATURE,SCA-PACKAGE"
-        polaris.test.sast.location: "remote"
+        #polaris.test.sast.location: "remote"
         
         ### SCANNING OPTIONAL
         polaris_application_name: 'susantoblackduck'
